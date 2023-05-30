@@ -7,7 +7,7 @@ const page = async ({searchParams}) => {
   const data = await res.json();
 
   return (
-    <div className="flex flex-wrap">
+    <div className="flex flex-wrap justify-center">
       {
         data?.results?.map((dt, i)=> (
           <Movies key={i} dt = {dt}/>
