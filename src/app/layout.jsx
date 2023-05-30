@@ -7,7 +7,7 @@ import Tabs from '@/components/Tabs'
 const Layout = ({children}) => {
   return (
     <html lang='en'>
-        <body>
+        <body className='hide-scrollbar'>
           <Providers>
             <Header/>
             <Tabs/>

@@ -2,7 +2,7 @@ import React from 'react'
 
 const Head = () => {
   return (
-    <title>Movie App</title>
+    <title> Recep Öksüz Movie App Refolio</title>
   )
 }
 
